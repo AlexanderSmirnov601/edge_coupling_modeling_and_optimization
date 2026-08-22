@@ -28,9 +28,6 @@ this repository lets each of them be varied independently.
 | `docs/build_report.py` | assembles the PDF report from the text and the numbers/figures in `results/`. |
 | `results/` | figures, JSON data and logs of the runs reported below. |
 
-Requirements: Python ≥ 3.10 with `numpy`, `scipy`, `matplotlib` (`reportlab` only for the PDF). A run of the
-default case takes ~5 s (10⁵ unknowns); the taper study ~10 min and the design study ~10 min on a desktop
-(factorisations of 0.2–0.8 M unknowns, 1–2 GB).
 
 ## Model
 
@@ -47,11 +44,6 @@ default case takes ~5 s (10⁵ unknowns); the taper study ~10 min and the design
 * Geometry: uniform waveguide or facet + inverse taper with a linear or an *adiabatic* width law
   (derived from the Love delineation criterion), continuous widths through fill-fraction averaging.
 
-Three defects of the original script were repaired: the effective-index formula (it reduced to
-√(n_core² − 1) for any geometry), the insertion-loss definition (it normalised by the power in the
-output slice, i.e. mode purity), and the PML strength (σ_max = 10¹³ S/m made the PML edge a reflecting
-wall; the domain was a resonant cavity). The matrix assembly, mode scan and mode profile were vectorised
-(assembly 0.7 s → 0.03 s) and the solver uses a cached LU in CSC format.
 
 ## Validation (220 nm slab, 1 µm beam)
 
@@ -122,12 +114,17 @@ python docs/build_report.py         # docs/edge_coupler_report.pdf
 
 ## References
 
-[1] Ranno et al., ACS Photonics 9, 3467 (2022). [2] Corning SMF-28 Ultra datasheet. [3] Son et al.,
-Nanophotonics 7, 1845 (2018). [4] Marchetti et al., Photonics Research 7, 201 (2019). [5–6, 9] Okamoto,
-Fundamentals of Optical Waveguides (2021). [7] Rumpf, PIER B 36, 221 (2012). [8] Jackson, Classical
-Electrodynamics. [10] Berenger, J. Comput. Phys. 114, 185 (1994). [11] Chrostowski & Hochberg, Silicon
-Photonics Design (2015). [12] Love et al., IEE Proc. J 138, 343 (1991). [13] Joyce & DeLoach, Appl. Opt.
-23, 4187 (1984).
+[1] Ranno et al., ACS Photonics 9, 3467 (2022). 
+[2] Corning SMF-28 Ultra datasheet. 
+[3] Son et al., Nanophotonics 7, 1845 (2018). 
+[4] Marchetti et al., Photonics Research 7, 201 (2019). 
+[5–6, 9] Okamoto, Fundamentals of Optical Waveguides (2021). 
+[7] Rumpf, PIER B 36, 221 (2012). 
+[8] Jackson, Classical Electrodynamics. 
+[10] Berenger, J. Comput. Phys. 114, 185 (1994). 
+[11] Chrostowski & Hochberg, Silicon Photonics Design (2015). 
+[12] Love et al., IEE Proc. J 138, 343 (1991). 
+[13] Joyce & DeLoach, Appl. Opt. 23, 4187 (1984).
 
 
 
