@@ -129,5 +129,5 @@ Electrodynamics. [10] Berenger, J. Comput. Phys. 114, 185 (1994). [11] Chrostows
 Photonics Design (2015). [12] Love et al., IEE Proc. J 138, 343 (1991). [13] Joyce & DeLoach, Appl. Opt.
 23, 4187 (1984).
 
-*The original simulation code was written with GitHub Copilot / Gemini assistance; the repair,
-vectorisation, validation, optimisation studies and documentation were produced with Claude Code.*
+
+
