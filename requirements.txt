@@ -1,4 +1,0 @@
-numpy>=2.0
-scipy>=1.13
-matplotlib>=3.8
-reportlab>=4.0   # only for docs/build_report.py
