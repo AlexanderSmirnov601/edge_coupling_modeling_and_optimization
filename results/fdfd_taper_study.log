@@ -1,0 +1,171 @@
+Stage 0: butt coupling (bulk waveguide starts at the facet, no taper)
+  butt 220 nm: gap = 0.00 um  eta = 0.3599  IL =  4.44 dB  |B|/|F| = 0.0009  P_total/P_in = 0.818
+  butt 220 nm: gap = 0.25 um  eta = 0.3563  IL =  4.48 dB  |B|/|F| = 0.0009  P_total/P_in = 0.809
+  butt 220 nm: gap = 0.50 um  eta = 0.3504  IL =  4.55 dB  |B|/|F| = 0.0009  P_total/P_in = 0.801
+  butt 220 nm: gap = 1.00 um  eta = 0.3309  IL =  4.80 dB  |B|/|F| = 0.0009  P_total/P_in = 0.790
+  butt 220 nm: gap = 1.50 um  eta = 0.3073  IL =  5.12 dB  |B|/|F| = 0.0009  P_total/P_in = 0.783
+  butt 220 nm: gap = 2.00 um  eta = 0.2832  IL =  5.48 dB  |B|/|F| = 0.0009  P_total/P_in = 0.781
+  butt 220 nm: gap = 3.00 um  eta = 0.2385  IL =  6.23 dB  |B|/|F| = 0.0009  P_total/P_in = 0.779
+  butt 220 nm: gap = 4.00 um  eta = 0.2016  IL =  6.95 dB  |B|/|F| = 0.0009  P_total/P_in = 0.774
+  [11 s incl. factorization, 212500 unknowns]
+
+Stage 1: tip width (L_taper = 15 um) x gap
+  tip  20 nm: gap = 0.00 um  eta = 0.8737  IL =  0.59 dB  |B|/|F| = 0.0010  P_total/P_in = 0.879
+  tip  20 nm: gap = 0.25 um  eta = 0.8607  IL =  0.65 dB  |B|/|F| = 0.0010  P_total/P_in = 0.866
+  tip  20 nm: gap = 0.50 um  eta = 0.8462  IL =  0.73 dB  |B|/|F| = 0.0010  P_total/P_in = 0.852
+  tip  20 nm: gap = 1.00 um  eta = 0.8072  IL =  0.93 dB  |B|/|F| = 0.0010  P_total/P_in = 0.814
+  tip  20 nm: gap = 1.50 um  eta = 0.7626  IL =  1.18 dB  |B|/|F| = 0.0010  P_total/P_in = 0.771
+  tip  20 nm: gap = 2.00 um  eta = 0.7165  IL =  1.45 dB  |B|/|F| = 0.0010  P_total/P_in = 0.726
+  tip  20 nm: gap = 3.00 um  eta = 0.6279  IL =  2.02 dB  |B|/|F| = 0.0010  P_total/P_in = 0.639
+  tip  20 nm: gap = 4.00 um  eta = 0.5509  IL =  2.59 dB  |B|/|F| = 0.0010  P_total/P_in = 0.564
+  [50 s incl. factorization, 587500 unknowns]
+  tip  40 nm: gap = 0.00 um  eta = 0.7455  IL =  1.28 dB  |B|/|F| = 0.0010  P_total/P_in = 0.752
+  tip  40 nm: gap = 0.25 um  eta = 0.7388  IL =  1.31 dB  |B|/|F| = 0.0010  P_total/P_in = 0.745
+  tip  40 nm: gap = 0.50 um  eta = 0.7290  IL =  1.37 dB  |B|/|F| = 0.0010  P_total/P_in = 0.736
+  tip  40 nm: gap = 1.00 um  eta = 0.6977  IL =  1.56 dB  |B|/|F| = 0.0010  P_total/P_in = 0.705
+  tip  40 nm: gap = 1.50 um  eta = 0.6588  IL =  1.81 dB  |B|/|F| = 0.0010  P_total/P_in = 0.667
+  tip  40 nm: gap = 2.00 um  eta = 0.6172  IL =  2.10 dB  |B|/|F| = 0.0010  P_total/P_in = 0.626
+  tip  40 nm: gap = 3.00 um  eta = 0.5359  IL =  2.71 dB  |B|/|F| = 0.0010  P_total/P_in = 0.547
+  tip  40 nm: gap = 4.00 um  eta = 0.4651  IL =  3.32 dB  |B|/|F| = 0.0010  P_total/P_in = 0.477
+  [51 s incl. factorization, 587500 unknowns]
+  tip  60 nm: gap = 0.00 um  eta = 0.6156  IL =  2.11 dB  |B|/|F| = 0.0010  P_total/P_in = 0.624
+  tip  60 nm: gap = 0.25 um  eta = 0.6110  IL =  2.14 dB  |B|/|F| = 0.0010  P_total/P_in = 0.620
+  tip  60 nm: gap = 0.50 um  eta = 0.6031  IL =  2.20 dB  |B|/|F| = 0.0010  P_total/P_in = 0.612
+  tip  60 nm: gap = 1.00 um  eta = 0.5762  IL =  2.39 dB  |B|/|F| = 0.0010  P_total/P_in = 0.585
+  tip  60 nm: gap = 1.50 um  eta = 0.5420  IL =  2.66 dB  |B|/|F| = 0.0010  P_total/P_in = 0.551
+  tip  60 nm: gap = 2.00 um  eta = 0.5054  IL =  2.96 dB  |B|/|F| = 0.0010  P_total/P_in = 0.515
+  tip  60 nm: gap = 3.00 um  eta = 0.4345  IL =  3.62 dB  |B|/|F| = 0.0010  P_total/P_in = 0.446
+  tip  60 nm: gap = 4.00 um  eta = 0.3735  IL =  4.28 dB  |B|/|F| = 0.0010  P_total/P_in = 0.387
+  [52 s incl. factorization, 587500 unknowns]
+  tip  80 nm: gap = 0.00 um  eta = 0.5245  IL =  2.80 dB  |B|/|F| = 0.0010  P_total/P_in = 0.535
+  tip  80 nm: gap = 0.25 um  eta = 0.5206  IL =  2.83 dB  |B|/|F| = 0.0010  P_total/P_in = 0.530
+  tip  80 nm: gap = 0.50 um  eta = 0.5136  IL =  2.89 dB  |B|/|F| = 0.0010  P_total/P_in = 0.523
+  tip  80 nm: gap = 1.00 um  eta = 0.4893  IL =  3.10 dB  |B|/|F| = 0.0010  P_total/P_in = 0.499
+  tip  80 nm: gap = 1.50 um  eta = 0.4585  IL =  3.39 dB  |B|/|F| = 0.0010  P_total/P_in = 0.469
+  tip  80 nm: gap = 2.00 um  eta = 0.4260  IL =  3.71 dB  |B|/|F| = 0.0010  P_total/P_in = 0.437
+  tip  80 nm: gap = 3.00 um  eta = 0.3636  IL =  4.39 dB  |B|/|F| = 0.0010  P_total/P_in = 0.376
+  tip  80 nm: gap = 4.00 um  eta = 0.3106  IL =  5.08 dB  |B|/|F| = 0.0010  P_total/P_in = 0.325
+  [57 s incl. factorization, 587500 unknowns]
+  tip 120 nm: gap = 0.00 um  eta = 0.4275  IL =  3.69 dB  |B|/|F| = 0.0010  P_total/P_in = 0.439
+  tip 120 nm: gap = 0.25 um  eta = 0.4240  IL =  3.73 dB  |B|/|F| = 0.0010  P_total/P_in = 0.435
+  tip 120 nm: gap = 0.50 um  eta = 0.4176  IL =  3.79 dB  |B|/|F| = 0.0010  P_total/P_in = 0.429
+  tip 120 nm: gap = 1.00 um  eta = 0.3961  IL =  4.02 dB  |B|/|F| = 0.0010  P_total/P_in = 0.407
+  tip 120 nm: gap = 1.50 um  eta = 0.3694  IL =  4.33 dB  |B|/|F| = 0.0010  P_total/P_in = 0.381
+  tip 120 nm: gap = 2.00 um  eta = 0.3416  IL =  4.66 dB  |B|/|F| = 0.0010  P_total/P_in = 0.354
+  tip 120 nm: gap = 3.00 um  eta = 0.2893  IL =  5.39 dB  |B|/|F| = 0.0010  P_total/P_in = 0.303
+  tip 120 nm: gap = 4.00 um  eta = 0.2457  IL =  6.10 dB  |B|/|F| = 0.0010  P_total/P_in = 0.261
+  [64 s incl. factorization, 587500 unknowns]
+  -> best tip 20 nm at gap 0.00 um: eta = 0.8737
+
+Stage 2: taper length (d_tip = 20 nm) x gap
+  L  3.0 um: gap = 0.00 um  eta = 0.6941  IL =  1.59 dB  |B|/|F| = 0.0010  P_total/P_in = 0.837
+  L  3.0 um: gap = 0.25 um  eta = 0.6833  IL =  1.65 dB  |B|/|F| = 0.0010  P_total/P_in = 0.827
+  L  3.0 um: gap = 0.50 um  eta = 0.6701  IL =  1.74 dB  |B|/|F| = 0.0010  P_total/P_in = 0.817
+  L  3.0 um: gap = 1.00 um  eta = 0.6339  IL =  1.98 dB  |B|/|F| = 0.0010  P_total/P_in = 0.790
+  L  3.0 um: gap = 1.50 um  eta = 0.5925  IL =  2.27 dB  |B|/|F| = 0.0010  P_total/P_in = 0.761
+  L  3.0 um: gap = 2.00 um  eta = 0.5503  IL =  2.59 dB  |B|/|F| = 0.0010  P_total/P_in = 0.733
+  L  3.0 um: gap = 3.00 um  eta = 0.4715  IL =  3.26 dB  |B|/|F| = 0.0010  P_total/P_in = 0.680
+  L  3.0 um: gap = 4.00 um  eta = 0.4055  IL =  3.92 dB  |B|/|F| = 0.0010  P_total/P_in = 0.633
+  [27 s incl. factorization, 287500 unknowns]
+  L  7.0 um: gap = 0.00 um  eta = 0.7991  IL =  0.97 dB  |B|/|F| = 0.0010  P_total/P_in = 0.837
+  L  7.0 um: gap = 0.25 um  eta = 0.7863  IL =  1.04 dB  |B|/|F| = 0.0010  P_total/P_in = 0.825
+  L  7.0 um: gap = 0.50 um  eta = 0.7716  IL =  1.13 dB  |B|/|F| = 0.0010  P_total/P_in = 0.812
+  L  7.0 um: gap = 1.00 um  eta = 0.7323  IL =  1.35 dB  |B|/|F| = 0.0010  P_total/P_in = 0.778
+  L  7.0 um: gap = 1.50 um  eta = 0.6878  IL =  1.63 dB  |B|/|F| = 0.0010  P_total/P_in = 0.739
+  L  7.0 um: gap = 2.00 um  eta = 0.6421  IL =  1.92 dB  |B|/|F| = 0.0010  P_total/P_in = 0.699
+  L  7.0 um: gap = 3.00 um  eta = 0.5561  IL =  2.55 dB  |B|/|F| = 0.0010  P_total/P_in = 0.624
+  L  7.0 um: gap = 4.00 um  eta = 0.4829  IL =  3.16 dB  |B|/|F| = 0.0010  P_total/P_in = 0.559
+  [36 s incl. factorization, 387500 unknowns]
+  L 25.0 um: gap = 0.00 um  eta = 0.9090  IL =  0.41 dB  |B|/|F| = 0.0010  P_total/P_in = 0.910
+  L 25.0 um: gap = 0.25 um  eta = 0.8971  IL =  0.47 dB  |B|/|F| = 0.0010  P_total/P_in = 0.898
+  L 25.0 um: gap = 0.50 um  eta = 0.8835  IL =  0.54 dB  |B|/|F| = 0.0010  P_total/P_in = 0.885
+  L 25.0 um: gap = 1.00 um  eta = 0.8465  IL =  0.72 dB  |B|/|F| = 0.0010  P_total/P_in = 0.848
+  L 25.0 um: gap = 1.50 um  eta = 0.8035  IL =  0.95 dB  |B|/|F| = 0.0010  P_total/P_in = 0.805
+  L 25.0 um: gap = 2.00 um  eta = 0.7584  IL =  1.20 dB  |B|/|F| = 0.0010  P_total/P_in = 0.760
+  L 25.0 um: gap = 3.00 um  eta = 0.6705  IL =  1.74 dB  |B|/|F| = 0.0010  P_total/P_in = 0.672
+  L 25.0 um: gap = 4.00 um  eta = 0.5926  IL =  2.27 dB  |B|/|F| = 0.0010  P_total/P_in = 0.595
+  [89 s incl. factorization, 837500 unknowns]
+  -> best linear taper length 25 um at gap 0.00 um: eta = 0.9090 (IL = 0.41 dB)
+
+Stage 2b: adiabatic taper profile (d_tip = 20 nm) x gap
+  adiabatic L  7.0 um: gap = 0.00 um  eta = 0.9528  IL =  0.21 dB  |B|/|F| = 0.0010  P_total/P_in = 0.957
+  adiabatic L  7.0 um: gap = 0.25 um  eta = 0.9447  IL =  0.25 dB  |B|/|F| = 0.0010  P_total/P_in = 0.951
+  adiabatic L  7.0 um: gap = 0.50 um  eta = 0.9347  IL =  0.29 dB  |B|/|F| = 0.0010  P_total/P_in = 0.942
+  adiabatic L  7.0 um: gap = 1.00 um  eta = 0.9052  IL =  0.43 dB  |B|/|F| = 0.0010  P_total/P_in = 0.916
+  adiabatic L  7.0 um: gap = 1.50 um  eta = 0.8688  IL =  0.61 dB  |B|/|F| = 0.0010  P_total/P_in = 0.884
+  adiabatic L  7.0 um: gap = 2.00 um  eta = 0.8290  IL =  0.81 dB  |B|/|F| = 0.0010  P_total/P_in = 0.848
+  adiabatic L  7.0 um: gap = 3.00 um  eta = 0.7480  IL =  1.26 dB  |B|/|F| = 0.0010  P_total/P_in = 0.775
+  adiabatic L  7.0 um: gap = 4.00 um  eta = 0.6732  IL =  1.72 dB  |B|/|F| = 0.0010  P_total/P_in = 0.706
+  [38 s incl. factorization, 387500 unknowns]
+  adiabatic L 15.0 um: gap = 0.00 um  eta = 0.9597  IL =  0.18 dB  |B|/|F| = 0.0010  P_total/P_in = 0.961
+  adiabatic L 15.0 um: gap = 0.25 um  eta = 0.9549  IL =  0.20 dB  |B|/|F| = 0.0010  P_total/P_in = 0.956
+  adiabatic L 15.0 um: gap = 0.50 um  eta = 0.9476  IL =  0.23 dB  |B|/|F| = 0.0010  P_total/P_in = 0.949
+  adiabatic L 15.0 um: gap = 1.00 um  eta = 0.9233  IL =  0.35 dB  |B|/|F| = 0.0010  P_total/P_in = 0.925
+  adiabatic L 15.0 um: gap = 1.50 um  eta = 0.8910  IL =  0.50 dB  |B|/|F| = 0.0010  P_total/P_in = 0.893
+  adiabatic L 15.0 um: gap = 2.00 um  eta = 0.8545  IL =  0.68 dB  |B|/|F| = 0.0010  P_total/P_in = 0.856
+  adiabatic L 15.0 um: gap = 3.00 um  eta = 0.7776  IL =  1.09 dB  |B|/|F| = 0.0010  P_total/P_in = 0.780
+  adiabatic L 15.0 um: gap = 4.00 um  eta = 0.7044  IL =  1.52 dB  |B|/|F| = 0.0010  P_total/P_in = 0.708
+  [65 s incl. factorization, 587500 unknowns]
+  adiabatic L 25.0 um: gap = 0.00 um  eta = 0.9612  IL =  0.17 dB  |B|/|F| = 0.0010  P_total/P_in = 0.962
+  adiabatic L 25.0 um: gap = 0.25 um  eta = 0.9574  IL =  0.19 dB  |B|/|F| = 0.0010  P_total/P_in = 0.958
+  adiabatic L 25.0 um: gap = 0.50 um  eta = 0.9510  IL =  0.22 dB  |B|/|F| = 0.0010  P_total/P_in = 0.952
+  adiabatic L 25.0 um: gap = 1.00 um  eta = 0.9285  IL =  0.32 dB  |B|/|F| = 0.0010  P_total/P_in = 0.929
+  adiabatic L 25.0 um: gap = 1.50 um  eta = 0.8977  IL =  0.47 dB  |B|/|F| = 0.0010  P_total/P_in = 0.899
+  adiabatic L 25.0 um: gap = 2.00 um  eta = 0.8623  IL =  0.64 dB  |B|/|F| = 0.0010  P_total/P_in = 0.863
+  adiabatic L 25.0 um: gap = 3.00 um  eta = 0.7870  IL =  1.04 dB  |B|/|F| = 0.0010  P_total/P_in = 0.788
+  adiabatic L 25.0 um: gap = 4.00 um  eta = 0.7145  IL =  1.46 dB  |B|/|F| = 0.0010  P_total/P_in = 0.715
+  [93 s incl. factorization, 837500 unknowns]
+  -> best adiabatic-profile length 25 um at gap 0.00 um: eta = 0.9612 (IL = 0.17 dB)
+
+Stage 3: field plot of the optimum
+Grid: 1675 x 500 = 837500 unknowns
+Domain: 33.5 um x 5.0 um
+PML: max stretch sigma_max/(omega*eps0) = 9.29e+00   (absorbing range ~1-30; sigma_max ~ 1.0e+05 S/m gives R_pml ~ 1e-06)
+Reusing cached LU factorization (only the source changed).
+Solve: 0.53 s.
+
+Mode parameters:
+  ky    = 8.0872e+06 rad/m
+  gamma = 9.9762e+06 rad/m
+  n_eff = 2.8514   (check via n_clad, gamma: 2.8514)
+  mode 1/e half-width = 0.165 um, 2nd-moment radius = 0.178 um
+
+=== Results ===
+P_in   (Poynting probe at x = 5.06 um)     = 1.9224e-12 W/m
+P_out  (guided mode at x = 32.96 um)       = 1.8477e-12 W/m
+P_total (Poynting flux at x = 32.96 um)    = 1.8498e-12 W/m   [diagnostic: P_out <= P_total <= P_in]
+eta (simulated)  = P_out / P_in                = 0.9612
+eta (analytical) = butt-coupling overlap       = 0.3676   (IL = 4.35 dB)
+eta (soft-source estimate, 1/beta-weighted)    = 0.2270   (IL = 6.44 dB)
+n_eff                                          = 2.8514
+Insertion Loss IL = -10 log10(eta)             = 0.17 dB
+
+Diagnostics:
+  guided-mode standing-wave ratio |B|/|F| at output = 0.0010   (<~0.05 for a clean travelling mode)
+  n_eff of the discrete mode (phase slope of a(x))  = 2.8588   (analytical 2.8514)
+
+Analytics
+  tip   20 nm: n_eff = 1.4952  mode 1/e half-width = 0.625 um  Gaussian-equivalent radius = 0.804 um  thin-slab 1/gamma = 0.606 um  facet overlap(gap=0) = 0.962  L_ad =   15.8 um
+  tip   30 nm: n_eff = 1.5584  mode 1/e half-width = 0.425 um  Gaussian-equivalent radius = 0.542 um  thin-slab 1/gamma = 0.404 um  facet overlap(gap=0) = 0.872  L_ad =    7.9 um
+  tip   40 nm: n_eff = 1.6379  mode 1/e half-width = 0.335 um  Gaussian-equivalent radius = 0.414 um  thin-slab 1/gamma = 0.303 um  facet overlap(gap=0) = 0.771  L_ad =    4.9 um
+  tip   50 nm: n_eff = 1.7278  mode 1/e half-width = 0.275 um  Gaussian-equivalent radius = 0.341 um  thin-slab 1/gamma = 0.243 um  facet overlap(gap=0) = 0.686  L_ad =    3.5 um
+  tip   60 nm: n_eff = 1.8228  mode 1/e half-width = 0.245 um  Gaussian-equivalent radius = 0.291 um  thin-slab 1/gamma = 0.202 um  facet overlap(gap=0) = 0.618  L_ad =    2.6 um
+  tip   80 nm: n_eff = 2.0134  mode 1/e half-width = 0.205 um  Gaussian-equivalent radius = 0.232 um  thin-slab 1/gamma = 0.152 um  facet overlap(gap=0) = 0.524  L_ad =    1.7 um
+  tip  100 nm: n_eff = 2.1905  mode 1/e half-width = 0.185 um  Gaussian-equivalent radius = 0.203 um  thin-slab 1/gamma = 0.121 um  facet overlap(gap=0) = 0.466  L_ad =    1.2 um
+  tip  120 nm: n_eff = 2.3471  mode 1/e half-width = 0.175 um  Gaussian-equivalent radius = 0.188 um  thin-slab 1/gamma = 0.101 um  facet overlap(gap=0) = 0.429  L_ad =    0.8 um
+  tip  160 nm: n_eff = 2.5975  mode 1/e half-width = 0.165 um  Gaussian-equivalent radius = 0.173 um  thin-slab 1/gamma = 0.076 um  facet overlap(gap=0) = 0.392  L_ad =    0.4 um
+  tip  220 nm: n_eff = 2.8514  mode 1/e half-width = 0.165 um  Gaussian-equivalent radius = 0.173 um  thin-slab 1/gamma = 0.055 um  facet overlap(gap=0) = 0.380  L_ad =    0.0 um
+
+=== Optimum (w0 = 1 um, d_core = 220 nm fixed) ===
+  d_tip = 20 nm, adiabatic taper profile, L_taper = 25 um, gap = 0.00 um
+  linear-taper best:    L = 25 um, eta = 0.9090
+  adiabatic-taper best: L = 25 um, eta = 0.9612
+  eta = 0.9612  ->  IL = 0.17 dB   (butt coupling at its best gap: eta = 0.3599, IL = 4.44 dB)
+  analytic facet efficiency at that gap (beam propagated, overlapped with tip mode): 0.9620
+  implied taper transmission eta / eta_facet = 0.999   (0.00 dB)
+  tip mode: Gaussian-equivalent radius 0.804 um vs beam w0 = 1.00 um; L_ad(d_tip) = 15.8 um
+Total time: 10.6 min
+
+Figure saved to C:\Users\user\fdfd_taper_study.png; optimum field plot C:\Users\user\fdfd_taper_optimum.png; data C:\Users\user\fdfd_taper_study.json
+C:\Users\user\Claude\fdfd_taper_study.py:329: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  ax.plot(gaps_fine/um, facet_best, '-', color=C_AN, lw=2, label='angular-spectrum propagation \xd7 tip-mode overlap')

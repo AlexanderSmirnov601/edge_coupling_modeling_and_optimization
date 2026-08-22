@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.npz
+nohup.out
+.venv/
+results/*_checkpoint.json

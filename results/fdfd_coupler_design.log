@@ -1,0 +1,80 @@
+Stage 1: tip width x taper profile x length (gap = 0)
+  tip  40 nm  adiabatic L =  3.0 um: eta = 0.7658  IL =  1.16 dB  |B|/|F| = 0.0010  P_total/P_in = 0.848   [11 s, 200000 unknowns]
+  tip  40 nm  adiabatic L =  7.0 um: eta = 0.7700  IL =  1.13 dB  |B|/|F| = 0.0010  P_total/P_in = 0.794   [19 s, 300000 unknowns]
+  tip  40 nm  adiabatic L = 15.0 um: eta = 0.7690  IL =  1.14 dB  |B|/|F| = 0.0010  P_total/P_in = 0.773   [34 s, 500000 unknowns]
+  tip  40 nm  linear    L = 15.0 um: eta = 0.7455  IL =  1.28 dB   [reused from fdfd_taper_study.json]
+  tip  60 nm  adiabatic L =  3.0 um: eta = 0.6185  IL =  2.09 dB  |B|/|F| = 0.0010  P_total/P_in = 0.755   [10 s, 200000 unknowns]
+  tip  60 nm  adiabatic L =  7.0 um: eta = 0.6190  IL =  2.08 dB  |B|/|F| = 0.0010  P_total/P_in = 0.663   [19 s, 300000 unknowns]
+  tip  60 nm  adiabatic L = 15.0 um: eta = 0.6183  IL =  2.09 dB  |B|/|F| = 0.0010  P_total/P_in = 0.626   [35 s, 500000 unknowns]
+  tip  60 nm  linear    L = 15.0 um: eta = 0.6156  IL =  2.11 dB   [reused from fdfd_taper_study.json]
+  tip  80 nm  adiabatic L =  3.0 um: eta = 0.5254  IL =  2.80 dB  |B|/|F| = 0.0010  P_total/P_in = 0.690   [10 s, 200000 unknowns]
+  tip  80 nm  adiabatic L =  7.0 um: eta = 0.5249  IL =  2.80 dB  |B|/|F| = 0.0010  P_total/P_in = 0.580   [19 s, 300000 unknowns]
+  tip  80 nm  adiabatic L = 15.0 um: eta = 0.5246  IL =  2.80 dB  |B|/|F| = 0.0010  P_total/P_in = 0.534   [34 s, 500000 unknowns]
+  tip  80 nm  linear    L = 15.0 um: eta = 0.5245  IL =  2.80 dB   [reused from fdfd_taper_study.json]
+  tip 100 nm  adiabatic L =  3.0 um: eta = 0.4671  IL =  3.31 dB  |B|/|F| = 0.0010  P_total/P_in = 0.649   [10 s, 200000 unknowns]
+  tip 100 nm  adiabatic L =  7.0 um: eta = 0.4659  IL =  3.32 dB  |B|/|F| = 0.0010  P_total/P_in = 0.528   [20 s, 300000 unknowns]
+  tip 100 nm  adiabatic L = 15.0 um: eta = 0.4660  IL =  3.32 dB  |B|/|F| = 0.0010  P_total/P_in = 0.477   [34 s, 500000 unknowns]
+  tip 100 nm  linear    L = 15.0 um: eta = 0.4659  IL =  3.32 dB  |B|/|F| = 0.0010   [35 s]
+  -> best: tip 40 nm, adiabatic taper, L = 7 um: eta = 0.7700 (IL = 1.13 dB)
+
+Stage 2: alignment tolerance (lateral offset y0, in-plane tilt theta)
+  best (tip 40 nm, adiabatic, L = 7 um): 1-dB lateral offset = 0.375 um, 1-dB tilt = 14.3 deg
+  widest tip (tip 100 nm, adiabatic, L = 3 um): 1-dB lateral offset = 0.339 um, 1-dB tilt = 28.7 deg
+
+Stage 3: field plot of the best design
+Grid: 600 x 500 = 300000 unknowns
+Domain: 12.0 um x 5.0 um
+PML: max stretch sigma_max/(omega*eps0) = 9.29e+00   (absorbing range ~1-30; sigma_max ~ 1.0e+05 S/m gives R_pml ~ 1e-06)
+Matrix assembled in 0.07 s  (nnz = 1491216)
+Factorizing (sparse LU on the CSC matrix)...
+Done in 396.38 s.
+Solve: 0.27 s.
+
+Mode parameters:
+  ky    = 8.0872e+06 rad/m
+  gamma = 9.9762e+06 rad/m
+  n_eff = 2.8514   (check via n_clad, gamma: 2.8514)
+  mode 1/e half-width = 0.165 um, 2nd-moment radius = 0.178 um
+
+=== Results ===
+P_in   (Poynting probe at x = 1.56 um)     = 1.9167e-12 W/m
+P_out  (guided mode at x = 11.46 um)       = 1.4759e-12 W/m
+P_total (Poynting flux at x = 11.46 um)    = 1.5225e-12 W/m   [diagnostic: P_out <= P_total <= P_in]
+eta (simulated)  = P_out / P_in                = 0.7700
+eta (analytical) = butt-coupling overlap       = 0.3676   (IL = 4.35 dB)
+eta (soft-source estimate, 1/beta-weighted)    = 0.2270   (IL = 6.44 dB)
+n_eff                                          = 2.8514
+Insertion Loss IL = -10 log10(eta)             = 1.13 dB
+
+Diagnostics:
+  guided-mode standing-wave ratio |B|/|F| at output = 0.0010   (<~0.05 for a clean travelling mode)
+  n_eff of the discrete mode (phase slope of a(x))  = 2.8588   (analytical 2.8514)
+
+Stage 4: analytics / 2D -> 3D estimate
+  tip   20 nm: lateral n_eff = 1.495, w_1e = 0.63 um, facet overlap = 0.962, L_ad =  15.8 um | vertical (EIM): core n = 1.495, w_1e = 3.55 um, eta_z = 0.529, 1-dB vertical offset = nan um
+  tip   30 nm: lateral n_eff = 1.558, w_1e = 0.43 um, facet overlap = 0.872, L_ad =   7.9 um | vertical (EIM): core n = 1.558, w_1e = 1.69 um, eta_z = 0.819, 1-dB vertical offset = 0.65 um
+  tip   40 nm: lateral n_eff = 1.638, w_1e = 0.34 um, facet overlap = 0.771, L_ad =   4.9 um | vertical (EIM): core n = 1.638, w_1e = 1.04 um, eta_z = 0.954, 1-dB vertical offset = 0.53 um
+  tip   50 nm: lateral n_eff = 1.728, w_1e = 0.28 um, facet overlap = 0.686, L_ad =   3.5 um | vertical (EIM): core n = 1.728, w_1e = 0.74 um, eta_z = 0.970, 1-dB vertical offset = 0.47 um
+  tip   60 nm: lateral n_eff = 1.823, w_1e = 0.25 um, facet overlap = 0.618, L_ad =   2.6 um | vertical (EIM): core n = 1.823, w_1e = 0.58 um, eta_z = 0.928, 1-dB vertical offset = 0.43 um
+  tip   70 nm: lateral n_eff = 1.919, w_1e = 0.22 um, facet overlap = 0.565, L_ad =   2.1 um | vertical (EIM): core n = 1.919, w_1e = 0.48 um, eta_z = 0.867, 1-dB vertical offset = 0.41 um
+  tip   80 nm: lateral n_eff = 2.013, w_1e = 0.21 um, facet overlap = 0.524, L_ad =   1.7 um | vertical (EIM): core n = 2.013, w_1e = 0.41 um, eta_z = 0.804, 1-dB vertical offset = 0.39 um
+  tip   90 nm: lateral n_eff = 2.104, w_1e = 0.19 um, facet overlap = 0.491, L_ad =   1.4 um | vertical (EIM): core n = 2.104, w_1e = 0.36 um, eta_z = 0.748, 1-dB vertical offset = 0.38 um
+  tip  100 nm: lateral n_eff = 2.191, w_1e = 0.19 um, facet overlap = 0.466, L_ad =   1.2 um | vertical (EIM): core n = 2.191, w_1e = 0.33 um, eta_z = 0.700, 1-dB vertical offset = 0.38 um
+  tip  120 nm: lateral n_eff = 2.347, w_1e = 0.18 um, facet overlap = 0.429, L_ad =   0.8 um | vertical (EIM): core n = 2.347, w_1e = 0.29 um, eta_z = 0.625, 1-dB vertical offset = 0.37 um
+  tip  160 nm: lateral n_eff = 2.598, w_1e = 0.17 um, facet overlap = 0.392, L_ad =   0.4 um | vertical (EIM): core n = 2.598, w_1e = 0.24 um, eta_z = 0.535, 1-dB vertical offset = 0.36 um
+  tip  220 nm: lateral n_eff = 2.851, w_1e = 0.17 um, facet overlap = 0.380, L_ad =   0.0 um | vertical (EIM): core n = 2.851, w_1e = 0.21 um, eta_z = 0.468, 1-dB vertical offset = 0.35 um
+
+=== Final design (w0 = 1 um, 220 nm slab, gap = 0) ===
+  tip 40 nm, adiabatic taper, L = 7 um: 2D eta = 0.7700 (IL 1.13 dB)
+  tip   profile   L(um)   eta_2D   IL_2D(dB)   eta_z(EIM)   eta_3D est.   IL_3D est.(dB)
+    40  adiabatic     7   0.770     1.13       0.954        0.735           1.34
+    60  adiabatic     7   0.619     2.08       0.928        0.575           2.41
+    80  adiabatic     3   0.525     2.80       0.804        0.422           3.74
+   100  adiabatic     3   0.467     3.31       0.700        0.327           4.86
+  butt (no taper):        2D eta = 0.360 (4.44 dB), eta_z = 0.468, 3D est. = 0.169 (7.73 dB)
+  alignment, best (tip 40 nm): 1-dB lateral 0.38 um, 1-dB vertical (EIM) 0.53 um, 1-dB tilt 14 deg
+  alignment, widest tip (tip 100 nm): 1-dB lateral 0.34 um, 1-dB vertical (EIM) 0.38 um, 1-dB tilt 29 deg
+Total simulation time: 12.1 min
+Figure saved to C:\Users\user\Claude\edge_coupling_modeling_and_optimization\results\fdfd_coupler_design.png
+C:\Users\user\Claude\edge_coupling_modeling_and_optimization\fdfd_coupler_design.py:355: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
