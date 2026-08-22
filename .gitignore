@@ -4,3 +4,4 @@ __pycache__/
 nohup.out
 .venv/
 results/*_checkpoint.json
+docs/.eq/
