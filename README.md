@@ -6,6 +6,8 @@ Gaussian beam (fibre) into a silicon slab waveguide at λ = 1550 nm, and its use
 Gaussian waist). The full write-up, with the theory, validation and the physical-plausibility
 review, is in [`docs/edge_coupler_report.pdf`](docs/edge_coupler_report.pdf).
 
+<img width="2100" height="750" alt="fdfd_coupler_design_field" src="https://github.com/user-attachments/assets/d0038f19-8298-4f49-aaf3-5d52e9001117" />
+
 ## Background
 
 Photonic integrated circuits are manufactured in standard semiconductor foundries, but the
