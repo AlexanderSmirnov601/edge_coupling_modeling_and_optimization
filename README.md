@@ -116,17 +116,24 @@ python docs/build_report.py         # docs/edge_coupler_report.pdf
 
 ## References
 
-[1] Ranno et al., ACS Photonics 9, 3467 (2022). 
-[2] Corning SMF-28 Ultra datasheet. 
-[3] Son et al., Nanophotonics 7, 1845 (2018). 
-[4] Marchetti et al., Photonics Research 7, 201 (2019). 
-[5–6, 9] Okamoto, Fundamentals of Optical Waveguides (2021). 
-[7] Rumpf, PIER B 36, 221 (2012). 
-[8] Jackson, Classical Electrodynamics. 
-[10] Berenger, J. Comput. Phys. 114, 185 (1994). 
-[11] Chrostowski & Hochberg, Silicon Photonics Design (2015). 
-[12] Love et al., IEE Proc. J 138, 343 (1991). 
+[1] Ranno et al., ACS Photonics 9, 3467 (2022).
+
+[2] Corning SMF-28 Ultra datasheet.
+
+[3] Son et al., Nanophotonics 7, 1845 (2018).
+
+[4] Marchetti et al., Photonics Research 7, 201 (2019).
+
+[5–6, 9] Okamoto, Fundamentals of Optical Waveguides (2021).
+
+[7] Rumpf, PIER B 36, 221 (2012).
+
+[8] Jackson, Classical Electrodynamics.
+
+[10] Berenger, J. Comput. Phys. 114, 185 (1994).
+
+[11] Chrostowski & Hochberg, Silicon Photonics Design (2015).
+
+[12] Love et al., IEE Proc. J 138, 343 (1991).
+
 [13] Joyce & DeLoach, Appl. Opt. 23, 4187 (1984).
-
-
-
